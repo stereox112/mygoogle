@@ -1,0 +1,125 @@
+*{
+    font-family: arial, sans-serif;
+    margin: 0;
+    font-size: 13px;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    }
+
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f2f2f2;  
+    border-top: 1px solid #e4e4e4;    
+    }
+
+    li {
+        display: inline;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .logo{
+        display: block;
+        position: fixed;
+        top: 21.25%;
+        left: 42.89%;
+    }
+
+    .searchbox{
+        display: block;
+        position: fixed;
+        top: 34%;
+        left: 34.9%;
+        height: 39px;
+        width: 490px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 24px;
+        background-image: url(./glass.jpg);
+        background-position: 13px 10px;
+        background-repeat: no-repeat;
+        background-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 16px;       
+    }
+
+    .searchbox:hover{
+        box-shadow: 0px 1px 10px -5px gray;
+    }
+
+    .mic{
+        display: block;
+        position: fixed;
+        top: 35.2%;
+        left: 62.6%;
+        height: 20px;
+        width: 12px;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        opacity: 1;
+    }
+
+    .bothbuttons{
+        display: flex;
+        position: fixed;
+        top: 42%;
+        left: 42%;
+        width: 285px;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+    .button{
+        padding-left: 13px;
+        padding-top: 9px;
+        padding-right: 13px;
+        padding-bottom: 9px;
+        font-size: 14px;
+        border-color: transparent;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #5f6368; 
+    }
+
+    .button:hover{
+        box-shadow: 0px 1px 5px -5px black;
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        color: #222;
+    }
+
+    a{
+        color: rgb(53, 53, 53);
+    }
+
+    a:link{
+        text-decoration: none;
+    }
+
+    a:visited{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    a:active{
+        text-decoration: underline;
+    }
+
